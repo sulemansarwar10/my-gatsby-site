@@ -1,11 +1,13 @@
 
 import React from 'react';
-import Nav from './nav';
+import Layout from '../component/layout';
 export default () => {
     return <div>
-        <Nav />
-        <h1>
-            Hello world from Suleman!
-        </h1>
+        <Layout>
+
+            <h1>
+                Hello world from Suleman!
+            </h1>
+        </Layout>
     </div>;
 }
